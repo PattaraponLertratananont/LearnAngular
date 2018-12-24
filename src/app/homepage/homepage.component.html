@@ -1,0 +1,6 @@
+<div class="homepage">
+  <span>Main Container</span>
+  <h2>{{name}}</h2>
+  <div>Data: {{names}}</div>
+  <app-outer [names]="names" (eventFromOuter)="eventFromOuter($event)"></app-outer>
+</div>
